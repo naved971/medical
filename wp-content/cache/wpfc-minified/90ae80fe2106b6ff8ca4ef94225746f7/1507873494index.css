@@ -2335,7 +2335,7 @@ input[type="button"].btn-block {
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url(../../../themes/inspiry-medicalpress/fonts/glyphicons-halflings-regular.eot);
-  src: url(../../../themes/inspiry-medicalpress/fonts/glyphicons-halflings-regulard41d.eot?#iefix) format('embedded-opentype'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/fonts/glyphicons-halflings-regular.woff) format('woff'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
+  src: url(../../../themes/inspiry-medicalpress/fonts/glyphicons-halflings-regulard41d.eot?#iefix) format('embedded-opentype'), url(../../../themes/inspiry-medicalpress/fonts/glyphicons-halflings-regular.woff) format('woff'), url(../../../themes/inspiry-medicalpress/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../../../themes/inspiry-medicalpress/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
 }
 .glyphicon {
   position: relative;
@@ -5774,7 +5774,7 @@ td.visible-print {
 @font-face {
   font-family: 'flexslider-icon';
   src: url(../../../themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icon.eot);
-  src: url(../../../themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icond41d.eot?#iefix) format('embedded-opentype'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icon.woff) format('woff'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icon.ttf) format('truetype'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icon.svg#flexslider-icon) format('svg');
+  src: url(../../../themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icond41d.eot?#iefix) format('embedded-opentype'), url(../../../themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icon.woff) format('woff'), url(../../../themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icon.ttf) format('truetype'), url(../../../themes/inspiry-medicalpress/js/flexslider/fonts/flexslider-icon.svg#flexslider-icon) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -9812,7 +9812,12 @@ html.ie9 .entrance { opacity: 1!important; }
 @font-face {
   font-family: 'FontAwesome';
   src: url(../../../themes/inspiry-medicalpress/fonts/fontawesome-webfont3e6e.eot?v=4.7.0);
-  src: url(../../../themes/inspiry-medicalpress/fonts/fontawesome-webfontd41d.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+  src: url(../../../themes/inspiry-medicalpress/fonts/fontawesome-webfontd41d.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(../../../themes/inspiry-medicalpress/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), 
+  url(../../../themes/inspiry-medicalpress/fonts/fontawesome-webfont.woff?v=4.7.0) 
+  format('woff'), 
+  url(../../../themes/inspiry-medicalpress/fonts/fontawesome-webfont.ttf?v=4.7.0)
+   format('truetype'), 
+   url(../../../themes/inspiry-medicalpress/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15842,7 +15847,7 @@ div.gallery-item-types a:hover {
   line-height: 24px;
   font-weight: 700;
   position: relative;
-  /*background: url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/images/faq-open.png) no-repeat 98% 25px;*/
+  /*background: url(../../../themes/inspiry-medicalpress/images/faq-open.png) no-repeat 98% 25px;*/
 }
 .toggle-main .toggle-title i.fa {
   margin-right: 0;
@@ -15863,7 +15868,7 @@ div.gallery-item-types a:hover {
 }
 .toggle-main .toggle.current .toggle-title h3 {
   color: #fff;
-  /*background: url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/images/faq-close.png) no-repeat 98% 30px;*/
+  /*background: url(../../../themes/inspiry-medicalpress/images/faq-close.png) no-repeat 98% 30px;*/
 }
 .toggle-main .toggle.current .toggle-content {
   border-bottom: 1px solid #dcdee4;
@@ -15887,7 +15892,7 @@ div.gallery-item-types a:hover {
 }
 
 .accordion .accordion-title span {
-  background: url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/images/close-btn.png) 0px 0px no-repeat;
+  background: url(../../../themes/inspiry-medicalpress/images/close-btn.png) 0px 0px no-repeat;
   display: inline-block;
   width: 35px;
   height: 36px;
@@ -15914,7 +15919,7 @@ div.gallery-item-types a:hover {
 }
 
 .accordion.current .accordion-title span {
-  background: url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/images/open-btn.png) 0px 0px no-repeat;
+  background: url(../../../themes/inspiry-medicalpress/images/open-btn.png) 0px 0px no-repeat;
 }*/
 /*------------------------------------------------------*/
 /* Accordion Styles
@@ -15936,7 +15941,7 @@ div.gallery-item-types a:hover {
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
-  /* background: url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/images/accordin-open.png) no-repeat 98% 29px; */
+  /* background: url(../../../themes/inspiry-medicalpress/images/accordin-open.png) no-repeat 98% 29px; */
   position: relative;
 }
 .accordion-main .accordion-title i.fa {
@@ -15958,7 +15963,7 @@ div.gallery-item-types a:hover {
 }
 .accordion-main .accordion.current .accordion-title h3 {
   color: #fff;
-  /* background: url(//medicalpress.inspirythemes.biz/wp-content/themes/inspiry-medicalpress/images/accordin-close.png) no-repeat 98% 29px; */
+  /* background: url(../../../themes/inspiry-medicalpress/images/accordin-close.png) no-repeat 98% 29px; */
 }
 .accordion-main .accordion.current .accordion-content {
   border-bottom: 1px solid #dcdee4;
