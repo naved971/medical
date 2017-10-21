@@ -23,7 +23,7 @@
     <link rel="pingback" href="xmlrpc.php" />
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="Medical Press" href="feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Medical Press" href="./feed/index.html" />
     <link rel="alternate" type="application/atom+xml" title="Medical Press" href="feed/atom/index.html" />
 
     <title>Medical Press &#8211; Just another WordPress site</title>
@@ -104,7 +104,29 @@
     <link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed0a09?url=http%3A%2F%2Fmedicalpress.inspirythemes.biz%2F&amp;format=xml"
     />
     <style type='text/css' id='inspiry-dynamic-css'>
-        nav.main-menu ul>li ul li {
+      .docregis  .palel-primary {
+    border-color: #bce8f1;
+}
+
+.docregis .panel-primary>.panel-heading {
+    background: #bce8f1;
+}
+
+.docregis .panel-primary>.panel-body {
+    background-color: #bce8f1;
+}
+.patregis  .palel-primary {
+    border-color: #67c9e0;
+}
+
+.patregis .panel-primary>.panel-heading {
+    background: #67c9e0;
+}
+
+.patregis .panel-primary>.panel-body {
+    background-color: #bce8f1;
+}
+nav.main-menu ul>li ul li {
             border-color: #73d1e7;
         }
 
@@ -290,9 +312,9 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
 
-                        <!-- Website Logo -->
+                        <!-- Website Logo -->   
                         <div class="logo clearfix">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="../wp-content/uploads/2014/05/logo-two.png" alt="Medical Press" />
                             </a>
                         </div>
@@ -305,33 +327,34 @@
                                    
                                 </li>
                                 <li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-307">
-                                    <a href="doctors/index.html">Doctors</a>
+                                    <a href="index.php">Doctors</a>
                                     <ul class="sub-menu">
                                         <li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
-                                            <a href="doctors/doctorInformation.php">Doctors Information</a>
+                                            <a href="doctors/doctorinformation.php">Register as Doctor</a>
                                         </li>
                                         <li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304">
-                                            <a href="doctors/index.html">Doctors Availability</a>
+                                            <a href="../doctors/index.php">Doctors Availability</a>
                                         </li>
                                     </ul>
                                 </li>
      
                                 <li id="menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-308">
-                                    <a href="services/index.html">Patient Login</a>
-                                   <!--  <ul class="sub-menu">
+                                    <a href="../index.php">Patient Login</a>
+                                  <ul class="sub-menu">
                                         <li id="menu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
-                                            <a href="services/3-columns-services/index.html">3 Columns Services</a>
+                                            <a href="services/3-columns-services/index.html"> Patient Registration</a>
                                         </li>
+                                           <!--
                                         <li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310">
                                             <a href="services/2-columns-services/index.html">2 Columns Services</a>
                                         </li>
                                         <li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311">
                                             <a href="services/1-column-services/index.html">1 Column Services</a>
-                                        </li>
-                                    </ul> -->
+                                        </li>-->
+                                    </ul> 
                                 </li>
                                 <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-297">
-                                    <a href="#">Pages</a>
+                                    <a href="#">Pages</a> <!--
                                     <ul class="sub-menu">
                                         <li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-313">
                                             <a href="faqs/index.html">FAQs</a>
@@ -349,13 +372,15 @@
                                             <a href="sample-page/index.html">Sample Page</a>
                                         </li>
                                     </ul>
-                                </li>
+                                    -->
+                                </li>   
                                 <li id="menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321">
                                     <a href="make-an-appointment/index.html">Appointment</a>
-                                </li>
+                                </li>  <!--
                                 <li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318">
                                     <a href="contact/index.html">Contact</a>
                                 </li>
+                                -->
                             </ul>
                         </nav>
 
@@ -378,7 +403,7 @@
                                         <span>That You Can Trust</span>
                                     </h2>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</p>
-                                    <a class="btn" href="doctors/index.html">Read More</a>
+                                    <a class="btn" href="doctors/index.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -395,7 +420,7 @@
                                     </h2>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                         tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                                    <a class="btn" href="services/index.html">Read More</a>
+                                    <a class="btn" href="doctors/index.php">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -409,13 +434,14 @@
                                     <h2>Qualified Staff With
                                         <span>Expertise in Services We Offer</span>
                                     </h2>
-                                    <a class="btn" href="gallery/index.html">Read More</a>
+                                    <a class="btn" href="doctors/index.php">Read More</a>
                                 </div>
                             </div>
                         </div>
                     </li>
                 </ul>
             </div>
+            
             <div class="appointment clearfix">
                 <div class="container">
                     <div class="row">
@@ -437,6 +463,7 @@
                                 <div class="col-lg-3 col-md-3 col-sm-6  common">
                                     <input type="email" name="email" id="app-email" class="required email" placeholder="Email Address" />
                                 </div>
+           
                                 <div class="col-lg-3 col-md-3 col-sm-6  common">
                                     <input type="text" name="date" id="datepicker" placeholder="Appointment Date" />
                                 </div>
@@ -457,5 +484,8 @@
                     </div>
                 </div>
             </div>
+
+          
+
         </div>
 
