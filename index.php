@@ -6,9 +6,9 @@
             <div class="col-lg-4 col-md-4 col-sm-12 ">
                 <div class="features-intro clearfix">
                     <h2>
-                        <span>Health and Medical</span> WordPress Theme</h2>
+                        <span>Health and Medical</span> GEntlla Theme</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    <p>Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                         laoreet dolore magna aliquam erat volutpat.</p>
                     <a class="read-more" href="services/index.html">View Our Services</a>
                 </div>
@@ -24,7 +24,7 @@
                             <div class="col-lg-9 col-md-9 col-sm-9">
                                 <h3>
                                     Rehabilitation Center </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                <p>Lorem ipsum dolor eat  inr, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
                                     ut laoreet dolore.</p>
                             </div>
                         </div>
