@@ -126,6 +126,17 @@
 .patregis .panel-primary>.panel-body {
     background-color: #bce8f1;
 }
+.patlogin  .palel-primary {
+    border-color: #67c9e0;
+}
+
+.patlogin .panel-primary>.panel-heading {
+    background: #67c9e0;
+}
+
+.patlogin .panel-primary>.panel-body {
+    background-color: #bce8f1;
+}
 nav.main-menu ul>li ul li {
             border-color: #73d1e7;
         }
@@ -292,7 +303,7 @@ nav.main-menu ul>li ul li {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 ">
-                        <p>Welcome to MedicalPress a Premium Medical Theme</p>
+                        <p>Welcome to OHMS(****ONLINE MEDICAL HELP****)  a website for YOU.</p>
                     </div>
                     <div class="col-lg-7 col-md-7  text-right">
                         <p>

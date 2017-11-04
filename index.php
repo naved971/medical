@@ -6,11 +6,11 @@
             <div class="col-lg-4 col-md-4 col-sm-12 ">
                 <div class="features-intro clearfix">
                     <h2>
-                        <span>Health and Medical</span> GEntlla Theme</h2>
+                        <span>Health and Medical</span> Just for You</h2>
 
-                    <p>Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                        laoreet dolore magna aliquam erat volutpat.</p>
-                    <a class="read-more" href="services/index.html">View Our Services</a>
+                    <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
+              <!--      <a class="read-more" href="services/index.html">View Our Services</a>  -->
                 </div>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 ">
@@ -24,8 +24,8 @@
                             <div class="col-lg-9 col-md-9 col-sm-9">
                                 <h3>
                                     Rehabilitation Center </h3>
-                                <p>Lorem ipsum dolor eat  inr, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                                    ut laoreet dolore.</p>
+                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat.-->.Exampleeeee</p>
                             </div>
                         </div>
                     </div>
@@ -38,8 +38,8 @@
                             <div class="col-lg-9 col-md-9 col-sm-9">
                                 <h3>
                                     Medical Counseling </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                                    ut laoreet dolore.</p>
+                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
                             </div>
                         </div>
                     </div>
@@ -54,8 +54,8 @@
                             <div class="col-lg-9 col-md-9 col-sm-9">
                                 <h3>
                                     Qualified Doctors </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                                    ut laoreet dolore.</p>
+                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
                             </div>
                         </div>
                     </div>
@@ -68,8 +68,8 @@
                             <div class="col-lg-9 col-md-9 col-sm-9">
                                 <h3>
                                     Emergency Services </h3>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                                    ut laoreet dolore.</p>
+                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat.-->Exampleeeee.</p>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
         </div>
     </div>
 </div>
-
+<!--
 <div class="home-doctors  clearfix">
 
     <div class="container">
@@ -184,6 +184,7 @@
     </div>
 
 </div>
+-->
 <div class="home-blog text-center clearfix">
     <div class="container">
         <div class="row">
@@ -193,8 +194,8 @@
                     <h2>Latest News from
                         <span>Health and Medical</span>
                     </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                        laoreet dolore magna aliquam erat volutpat.</p>
+                    <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6 ">
@@ -217,11 +218,11 @@
                                     </span>
                                 </div>
                                 <div class="for-border"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                                    ut laoreet dolore magna aliquam erat&hellip; </p>
+                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
                             </div>
                         </article>
-                        <a class="read-more" href="image-post-format/index.html">Read More</a>
+                        <a class="read-more" href="">Read More</a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6 ">
                         <article class="common-blog-post hentry animated fadeInRight clearfix">
@@ -261,13 +262,13 @@
                                     </span>
                                 </div>
                                 <div class="for-border"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                                    ut laoreet dolore magna aliquam erat&hellip; </p>
+                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat.--> Exampleeeee</p>
                             </div>
                         </article>
                         <a class="read-more" href="gallery-post-format/index.html">Read More</a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6 ">
+                <!--    <div class="col-lg-4 col-md-4 col-sm-6 ">
                         <article class="common-blog-post hentry animated fadeInRight clearfix">
                             <div class="video clearfix">
                                 <div class="video-wrapper clearfix">
@@ -292,7 +293,7 @@
                             </div>
                         </article>
                         <a class="read-more" href="the-hero-in-all-of-us/index.html">Read More</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -306,49 +307,47 @@
             <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <div class="slogan-section animated fadeInUp clearfix">
                     <h2>What patients say
-                        <span>About MedicalPress</span>
+                        <span>About OHMS</span>
                     </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                        laoreet dolore magna aliquam erat volutpat.</p>
+                    <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat.-->Love your website. Simple yet effective. One of the best I have seen.</p>
                 </div>
             </div>
 
             <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 text-center">
                 <div class="flexslider-three animated fadeInUp">
                     <ul class="slides">
-                        <li>
-                            <img width="130" height="130" src="wp-content/uploads/2014/05/author-22-130x130.jpg" class="img-circle wp-post-image" alt=""
-                                srcset="http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/author-22-130x130.jpg 130w, http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/author-22-150x150.jpg 150w, http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/author-22.jpg 220w"
-                                sizes="(max-width: 130px) 100vw, 130px" />
+                        <li><
+                            <img width="130" height="130" src="file:///D:/photos/aligarh%20pics/DSC07095.JPG" class="img-circle wp-post-image" alt=""
+                                srcset=""
+                                sizes="(max-width: 130px) 100vw, 130px" /> 
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                                    ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis nostrud
-                                    exerci tation.</p>
+                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat.-->.Exampleeeee</p>
                             </blockquote>
 
                             <div class="testimonial-footer clearfix">
-                                <h3>Marina Forrest</h3>
+                                <h3>AHMAD DANISH KHAN</h3>
                                 <div class="for-border"></div>
                                 <p>
-                                    <a target="_blank" href="http://wordpress.org/">Autommatic</a>
+                                  <!--  <a target="_blank" href="http://wordpress.org/">Autommatic</a>  -->
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <img width="130" height="130" src="wp-content/uploads/2014/05/author-11-130x130.jpg" class="img-circle wp-post-image" alt=""
-                                srcset="http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/author-11-130x130.jpg 130w, http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/author-11-150x150.jpg 150w, http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/author-11.jpg 220w"
+                            <img width="130" height="130" src="" class="img-circle wp-post-image" alt=""
+                                srcset=""
                                 sizes="(max-width: 130px) 100vw, 130px" />
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                                    ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                                    exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                                laoreet dolore magna aliquam erat volutpat.-->.Exampleeeee</p>
                             </blockquote>
 
                             <div class="testimonial-footer clearfix">
-                                <h3>Jaden Wayne</h3>
+                                <h3>KASHIF AKHTAR</h3>
                                 <div class="for-border"></div>
                                 <p>
-                                    <a target="_blank" href="http://themeforest.net/">Themeforest</a>
+                                  <!--  <a target="_blank" href="http://themeforest.net/">Themeforest</a>  -->
                                 </p>
                             </div>
                         </li>

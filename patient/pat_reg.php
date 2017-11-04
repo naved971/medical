@@ -2,46 +2,50 @@
 <div class="row patregis">
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "test";
+   $servername = "localhost";
+   $username = "root";
+   $password = "";
+   $dbname = "test";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+   // Create connection
+   $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+   // Check connection
+   if ($conn->connect_error)
+    {
+      die("Connection failed: " . $conn->connect_error);
+    } 
 
-//echo "Connected successfully";
+   echo "Connected successfully";
 
-if (isset($_POST['submit'])) 
-{	
+   if (isset($_POST['submit'])) 
+    {	
 
-    $user_id=$_POST['user_id'];
-    $user_pass=$_POST['user_pass'];
-    $user_name=$_POST['user_name'];
-    $user_age=$_POST['user_age'];
-    $user_dob=$_POST['user_dob'];
-    $user_email=$_POST['user_email'];
-    $user_gender=$_POST['user_gender'];
-    $user_phone=$_POST['user_phone'];
-    $user_maritual_status=$_POST['user_maritual_status'];
-    $user_desc=$_POST['user_desc'];
+     $user_id=$_POST['user_id'];
+     $user_pass=$_POST['user_pass'];
+     $user_name=$_POST['user_name'];
+     $user_age=$_POST['user_age'];
+     $user_dob=$_POST['user_dob'];
+     $user_email=$_POST['user_email'];
+     $user_gender=$_POST['user_gender'];
+     $user_phone=$_POST['user_phone'];
+     $user_maritual_status=$_POST['user_maritual_status'];
+     $user_desc=$_POST['user_desc'];
 
-    $sql="INSERT INTO user_reg(user_id,user_pass,user_name,user_age,user_dob,user_email,user_gender,user_phone,user_desc)
-	VALUES ('$user_id','$user_pass','$user_name','$user_age','$user_dob','$user_email','$user_gender','$user_phone','$user_desc')";
+     $sql="INSERT INTO user_reg(user_id,user_pass,user_name,user_age,user_dob,user_email,user_gender,user_phone,user_maritual_status,user_desc)
+	 VALUES ('$user_id','$user_pass','$user_name','$user_age','$user_dob','$user_email','$user_gender','$user_phone','$user_maritual_status','$user_desc')";
 
-if ($conn->query($sql) === TRUE) {
-	echo "New record created successfully";
-} else {
-	echo "Error: " . $sql . "<br>" . $conn->error;
-}
+	  if ($conn->query($sql) === TRUE)
+	    {
+		  echo '<script>alert("New record created successfully")</script>';
+		}
+	 else
+	    {
+		 echo "Error: " . $sql . "<br>" . $conn->error;
+        }
 
-$conn->close();
-}
+     $conn->close();
+    }
 ?>
 
 
@@ -55,7 +59,7 @@ $conn->close();
 		<div class="panel-heading">Enter Your Details Here
 		</div>
 		<div class="panel-body">
-        <form name="myform"  method="post">
+        <form name="myform"  action="pat_reg.php" method="post">
 				<div class="form-group">
 					<label for="user_id">User Id*</label>
 					<input id="user_id" name="user_id" class="form-control" type="text" data-validation="required">
@@ -119,10 +123,11 @@ $conn->close();
         <div class="container">
   <h2>Modal Example</h2>
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
-                
-              <!--  <button id="submit" type="button" value="submit" name="submit" data-toggle="modal" class="btn btn-info btn-lg">Submit</button>
-              -->
+  <!--<button type="button" class="btn btn-info btn-lg" name="submit" data-toggle="modal" data-target="#myModal">Submit</button>
+      -->    
+	  <input type="submit" name="submit">      
+      <!--          <button id="submit" type="button" value="submit" name="submit" data-toggle="modal" class="btn btn-info btn-lg">Submit</button>
+          -->    
 <!-- Modal -->
 <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
@@ -145,7 +150,6 @@ $conn->close();
   
 </div>
       
-
 				<button id="gotoLogin"  value="Log In"  class="btn btn-primary center">Log in</button>
 
 			</form>

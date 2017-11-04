@@ -270,14 +270,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 ">
-                        <p>Welcome to MedicalPress a Premium Medical Theme</p>
+                        <p>Welcome to OHMS(****ONLINE MEDICAL HELP****)  a website for YOU.</p>
                     </div>
                     <div class="col-lg-7 col-md-7  text-right">
                         <p>
                             Opening Hours :
                             <span>Monday to Saturday - 8am to 9pm</span>
                             <br class="visible-xs" />&nbsp;&nbsp;Contact :
-                            <span>+1-800-654-3210</span>
+                            <span>+91-9105331157</span>
                         </p>
                     </div>
                 </div>
@@ -293,7 +293,7 @@
                         <!-- Website Logo -->
                         <div class="logo clearfix">
                             <a href="index.php">
-                                <img src="wp-content/uploads/2014/05/logo-two.png" alt="Medical Press" />
+                                <img src="https://www.vistaprint.in/any/preview/viewlogo.aspx?cnf=OMHS&icid=1079&csid=106&fsid=2&txid=7&tid=1&cfid=0&xcf=&arid=8&msid=0&drid=0&width=140&height=110" alt="Medical Press" />
                             </a>
                         </div>
 
@@ -304,13 +304,16 @@
                                   <a href="index.php">Home</a>   <!--  <a>Home</a>       -->                            
                                 </li>
                                 <li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-307">
-                                    <a href="#">Doctors</a>
+                                    <a href="#">Doctors Forum</a>
                                     <ul class="sub-menu">
                                         <li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
                                             <a href="doctors/doctorInformations.php">Doctor Information</a>
                                         </li>
                                         <li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304">
                                             <a href="doctors/doctorinformation.php">Register As Doctor</a>
+                                        </li>
+                                        <li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304">
+                                            <a href="doctors/doctorinformation.php">Doctor Login</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -321,14 +324,15 @@
                                         <li id="menu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
                                             <a href="patient/pat_reg.php">Patient Registration</a>
                                         </li>
+                                          
+                                        <li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311">
+                                            <a href="patient/pat_login.php">Patient Login</a>
+                                        </li>
                                          
                                         <li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310">
                                             <a href="appointments/appoint_info.php">appoinments</a>
                                         </li>
-                                        <!--
-                                        <li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311">
-                                            <a href="services/1-column-services/index.html">1 Column Services</a>
-                                        </li>-->
+                                      
                                     </ul> 
                                 </li>
                                 <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-297">
@@ -397,8 +401,7 @@
                                         <span>Care</span> for
                                         <span>You</span>
                                     </h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                        tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                    <p>blaa blaaa blaaa</p>
                                     <a class="btn" href="services/index.html">Read More</a>
                                 </div>
                             </div>

@@ -7,10 +7,10 @@
                 <section id="text-1" class="widget animated fadeInLeft widget_text">
                     <h3 class="title">About MedicalPress</h3>
                     <div class="textwidget">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                            ut laoreet dolore magna aliquam erat volutpat. </p>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-                            ex ea commodo consequat.</p>
+                        <p><!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat. --> exampleee</p>
+                        <p><!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. --> exampleeeU</p>
                     </div>
                 </section>
             </div>
