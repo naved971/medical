@@ -1,3 +1,4 @@
+</div>
 
 <footer id="main-footer" class="site-footer clearfix">
     <div class="container">

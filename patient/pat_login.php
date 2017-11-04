@@ -2,8 +2,6 @@
 <div class="row patlogin">
 
 <?php
-session_start();
-echo 'matter hai ';
 if(isset($_POST['submit']))
 {
   echo'solve hua?';
