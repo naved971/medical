@@ -13,11 +13,11 @@ if(isset($_POST['submit']))
  $user_pass=$_POST['user_pass'];
  if($user_id!=''&&$user_pass!='')
  {
-   $query=mysqli_query("select * from login where name='".$user_name."' and password='".$user_pass."'") or die(mysqli_error());
+   $query=mysqli_query("select * from login where name='".$user_id."' and password='".$user_pass."'") or die(mysqli_error());
    $res=mysqli_fetch_row($query);
    if($res)
    {
-    $_SESSION['user_name']=$user_name;
+    $_SESSION['user_id']=$user_id;
     header('location:index.php');
    }
    else
