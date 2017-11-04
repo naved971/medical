@@ -2,19 +2,19 @@
 <div class="row patlogin">
 
 <?php
-session_start();
-echo 'matter hai ';
+
+
 if(isset($_POST['submit']))
 {
-  echo'solve hua?';
- mysql_connect('localhost','root','') or die(mysql_error());
- mysql_select_db('new') or die(mysql_error());
- $user_name=$_POST['user_name'];
+
+ $scon=mysqli_connect('localhost','root','') or die(mysqli_error());
+ mysqli_select_db($scon,'test') or die(mysqli_error());
+ $user_id=$_POST['user_id'];
  $user_pass=$_POST['user_pass'];
- if($user_name!=''&&$user_pass!='')
+ if($user_id!=''&&$user_pass!='')
  {
-   $query=mysql_query("select * from login where name='".$user_name."' and password='".$user_pass."'") or die(mysql_error());
-   $res=mysql_fetch_row($query);
+   $query=mysqli_query("select * from login where name='".$user_name."' and password='".$user_pass."'") or die(mysqli_error());
+   $res=mysqli_fetch_row($query);
    if($res)
    {
     $_SESSION['user_name']=$user_name;
@@ -47,7 +47,7 @@ if(isset($_POST['submit']))
 					</div>
 					<div class="form-group">
 						<label for="user_pass">Password *</label>
-						<input id="user_pass" name="password" class="form-control" type="password" data-validation="email">
+						<input id="user_pass" name="user_pass" class="form-control" type="password" data-validation="email">
 						<span id="error_user_pass" class="text-danger"></span>
 					</div>
           <button id="submit" type="submit" value="submit" name="submit" class="btn btn-primary center">Submit</button>
