@@ -466,51 +466,9 @@ nav.main-menu ul>li ul li {
                     </li>
                 </ul>
             </div>
-            
-            <div class="appointment clearfix">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6  ">
-                            <span class="btn make-appoint ">Make an Appointment
-                                <i class="fa fa-caret-down"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="clearfix">
-                        <div class="appointment-form clearfix animated ">
-                            <form class="clearfix" id="appointment_form_one" action="http://medicalpress.inspirythemes.biz/wp-admin/admin-ajax.php" method="post">
-                                <div class="col-lg-3 col-md-3 col-sm-6  common">
-                                    <input type="text" name="name" id="app-name" class="required" placeholder="Name" />
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6  common">
-                                    <input type="text" name="number" id="app-number" placeholder="Phone Number" />
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6  common">
-                                    <input type="email" name="email" id="app-email" class="required email" placeholder="Email Address" />
-                                </div>
-           
-                                <div class="col-lg-3 col-md-3 col-sm-6  common">
-                                    <input type="text" name="date" id="datepicker" placeholder="Appointment Date" />
-                                </div>
-                                <div class="col-lg-11 col-md-11 col-sm-11 common">
-                                    <input type="text" name="message" id="app-message" class="required" placeholder="Message" />
-                                </div>
-                                <div class="col-lg-1 col-md-1 col-sm-1 common">
-                                    <input type="submit" name="Submit" class="btn" value="SEND" />
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <input type="hidden" name="action" value="make_appointment">
-                                    <input type="hidden" name="nonce" value="4faf329ea3" />
-                                    <img src="../wp-content/themes/inspiry-medicalpress/images/white-loader.gif" id="appointment-loader" alt="Loading...">
-                                    <div id="message-sent"></div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-          
+            <?php
+            include('appointment.php');
+            ?>
 
         </div>
 

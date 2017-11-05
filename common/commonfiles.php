@@ -1,3 +1,5 @@
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
 <style type="text/css" data-styled-components="fecEwn fgczcL kiDKJt ikcdJA haHlfB cgOOpr egHYPK" data-styled-components-is-local="true">
 /* sc-component-id: searchTextBox__SearchTextBoxWrapper-jzvkHk */
 .searchTextBox__SearchTextBoxWrapper-jzvkHk {}
@@ -19,4 +21,6 @@
 .DesktopTimesGridContent__StyledSlotElement-gArnFn {}
 </style>
 
-<link rel="stylesheet" type="text/css" href="wp-content/sg.patient-beta.framework__f5cf27c75a82a6020a62ba4a45789209__.min.css"       media="all" />
+<link rel="stylesheet" type="text/css" href="../wp-content/rb.homepage.desktop__254091cb7447804869214d9712419924__.min.css"       media="all" />
+<link rel="stylesheet" type="text/css" href="../wp-content/filter_doctor.css"       media="all" />
+<link rel="stylesheet" type="text/css" href="../wp-content/sg.patient-beta.framework__f5cf27c75a82a6020a62ba4a45789209__.min.css"       media="all" />

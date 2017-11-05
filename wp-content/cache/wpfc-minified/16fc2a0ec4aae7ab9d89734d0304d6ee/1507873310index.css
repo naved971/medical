@@ -13791,20 +13791,7 @@ nav.main-menu ul > .current-menu-item > a {
   padding-left: 9px;
   padding-right: 9px;
 }
-.home-slider input[type="text"],
-.home-slider input[type="email"],
-.home-slider input[type="number"],
-.home-slider textarea {
-  background: none;
-  color: #fff;
-  border: 0;
-  border-bottom: 2px solid #adebfa;
-  width: 100%;
-  display: inline-block;
-  resize: none;
-  padding: 0px 5px 5px 5px;
-  margin-bottom: 0;
-}
+
 .home-slider textarea {
   height: auto;
   margin: 0;
