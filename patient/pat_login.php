@@ -1,24 +1,45 @@
-<?php include('../common/header.php');?>
-<div class="row patlogin">
+<?php include('../common/header.php');
+
+
+?>
+<div class="patlogin">
+
+
 
 <?php
 
+if(isset($_POST['submit']) && ($_POST['submit'] == "Submit")      ) 
+{
 
-if(isset($_POST['submit']))
+	echo "acutal submit";
+}
+
+if(isset($_POST['submit']) && ($_POST['submit'] == "submit")      ) 
 {
 
  $scon=mysqli_connect('localhost','root','') or die(mysqli_error());
  mysqli_select_db($scon,'test') or die(mysqli_error());
  $user_id=$_POST['user_id'];
  $user_pass=$_POST['user_pass'];
+
+
+
  if($user_id!=''&&$user_pass!='')
  {
-   $query=mysqli_query("select * from login where name='".$user_id."' and password='".$user_pass."'") or die(mysqli_error());
+	
+   $query=mysqli_query($scon,"select * from user_reg where user_id='".$user_id."' and user_pass='".$user_pass."'") ;
    $res=mysqli_fetch_row($query);
    if($res)
    {
-    $_SESSION['user_id']=$user_id;
-    header('location:index.php');
+	session_start();
+   $_SESSION['user_id']=$user_id;
+   $_SESSION['user_type']="p";
+   
+	//header('location:index.php');
+	$_SESSION['login'] = "1";
+	
+	header('Location: ../index.php');
+	
    }
    else
    {
@@ -31,6 +52,7 @@ if(isset($_POST['submit']))
  }
 }
 ?>
+
 
 
 <div class="row">

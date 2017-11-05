@@ -1,3 +1,10 @@
+<?php
+ob_start();
+
+//Start session
+session_start();
+?>
+
 <!DOCTYPE html>
 <!--[if IE 7]><html class="ie ie7" lang="en-US"><![endif]-->
 <!--[if IE 8]><html class="ie ie8" lang="en-US"><![endif]-->
@@ -34,10 +41,7 @@
     />
     <link rel="alternate" type="application/rss+xml" title="Medical Press &raquo; Home Comments Feed" href="home/feed/index.html"
     />
-    <script type="text/javascript">
-        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "http:\/\/medicalpress.inspirythemes.biz\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2" } };
-        !function (a, b, c) { function d(a) { var b, c, d, e, f = String.fromCharCode; if (!k || !k.fillText) return !1; switch (k.clearRect(0, 0, j.width, j.height), k.textBaseline = "top", k.font = "600 32px Arial", a) { case "flag": return k.fillText(f(55356, 56826, 55356, 56819), 0, 0), b = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 56826, 8203, 55356, 56819), 0, 0), c = j.toDataURL(), b !== c && (k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447), 0, 0), b = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447), 0, 0), c = j.toDataURL(), b !== c); case "emoji4": return k.fillText(f(55358, 56794, 8205, 9794, 65039), 0, 0), d = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55358, 56794, 8203, 9794, 65039), 0, 0), e = j.toDataURL(), d !== e }return !1 } function e(a) { var c = b.createElement("script"); c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var f, g, h, i, j = b.createElement("canvas"), k = j.getContext && j.getContext("2d"); for (i = Array("flag", "emoji4"), c.supports = { everything: !0, everythingExceptFlag: !0 }, h = 0; h < i.length; h++)c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (g = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji))) }(window, document, window._wpemojiSettings);
-    </script>
+  
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -52,9 +56,12 @@
             padding: 0 !important;
         }
     </style>
+   <!-- <?php include('commonfiles.php')?>  -->
     <!-- <link rel='stylesheet' id='rs-plugin-settings-css'  href='http://medicalpress.inspirythemes.biz/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.0.9' type='text/css' media='all' /> -->
     <link rel="stylesheet" type="text/css" href="wp-content/cache/wpfc-minified/7b0e14603013e01c80126810e9034ad4/1507873310index.css"
-        media="all" />
+    media="all" />
+
+
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
     </style>
@@ -278,7 +285,10 @@
                             <span>Monday to Saturday - 8am to 9pm</span>
                             <br class="visible-xs" />&nbsp;&nbsp;Contact :
                             <span>+91-9105331157</span>
-                        </p>
+                      <br/>
+                        <?php     include('commontop.php'); ?>
+                         </p>
+
                     </div>
                 </div>
             </div>
@@ -422,49 +432,19 @@
                         </div>
                     </li>
                 </ul>
-            </div>   <!--
-         
-     echo' <div class="appointment clearfix">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-sm-6  ">
-                            <span class="btn make-appoint ">Make an Appointment
-                                <i class="fa fa-caret-down"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="clearfix">
-                        <div class="appointment-form clearfix animated ">
-                            <form class="clearfix" id="appointment_form_one" action="http://medicalpress.inspirythemes.biz/wp-admin/admin-ajax.php" method="post">
-                                <div class="col-lg-3 col-md-3 col-sm-6  common">
-                                    <input type="text" name="name" id="app-name" class="required" placeholder="Name" />
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6  common">
-                                    <input type="text" name="number" id="app-number" placeholder="Phone Number" />
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6  common">
-                                    <input type="email" name="email" id="app-email" class="required email" placeholder="Email Address" />
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6  common">
-                                    <input type="text" name="date" id="datepicker" placeholder="Appointment Date" />
-                                </div>
-                                <div class="col-lg-11 col-md-11 col-sm-11 common">
-                                    <input type="text" name="message" id="app-message" class="required" placeholder="Message" />
-                                </div>
-                                <div class="col-lg-1 col-md-1 col-sm-1 common">
-                                    <input type="submit" name="Submit" class="btn" value="SEND" />
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                    <input type="hidden" name="action" value="make_appointment">
-                                    <input type="hidden" name="nonce" value="4faf329ea3" />
-                                    <img src="wp-content/themes/inspiry-medicalpress/images/white-loader.gif" id="appointment-loader" alt="Loading...">
-                                    <div id="message-sent"></div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>'
-       -->
+            </div>   
+    
+    
+            <?php 
+                
+if( isset($_SESSION['user_type']) && isset($_SESSION['login'])     &&      $_SESSION['login'] == "1"  && $_SESSION['user_type'] == 'p' ){
+
+    include('common/appointment.php');
+    
+
+}
+?>
+            
+       
         </div>
 

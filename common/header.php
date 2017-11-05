@@ -4,7 +4,14 @@
 <!--[if !(IE 7) | !(IE 8) ]><!-->
 <html lang="en-US">
 <!--<![endif]-->
+<?php
+ob_start();
 
+//Start session
+session_start();
+$_SESSION['valid']   = false;
+
+?>
 <!-- Mirrored from medicalpress.inspirythemes.biz/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Oct 2017 15:13:48 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -34,10 +41,9 @@
     />
     <link rel="alternate" type="application/rss+xml" title="Medical Press &raquo; Home Comments Feed" href="home/feed/index.html"
     />
-    <script type="text/javascript">
-        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "http:\/\/medicalpress.inspirythemes.biz\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2" } };
-        !function (a, b, c) { function d(a) { var b, c, d, e, f = String.fromCharCode; if (!k || !k.fillText) return !1; switch (k.clearRect(0, 0, j.width, j.height), k.textBaseline = "top", k.font = "600 32px Arial", a) { case "flag": return k.fillText(f(55356, 56826, 55356, 56819), 0, 0), b = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 56826, 8203, 55356, 56819), 0, 0), c = j.toDataURL(), b !== c && (k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447), 0, 0), b = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447), 0, 0), c = j.toDataURL(), b !== c); case "emoji4": return k.fillText(f(55358, 56794, 8205, 9794, 65039), 0, 0), d = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55358, 56794, 8203, 9794, 65039), 0, 0), e = j.toDataURL(), d !== e }return !1 } function e(a) { var c = b.createElement("script"); c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var f, g, h, i, j = b.createElement("canvas"), k = j.getContext && j.getContext("2d"); for (i = Array("flag", "emoji4"), c.supports = { everything: !0, everythingExceptFlag: !0 }, h = 0; h < i.length; h++)c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (g = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji))) }(window, document, window._wpemojiSettings);
-    </script>
+ 
+
+    
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -55,6 +61,8 @@
         margin-top: 40px;
         }
     </style>
+        <?php include('commonfiles.php')?>
+
     <!-- <link rel='stylesheet' id='rs-plugin-settings-css'  href='http://medicalpress.inspirythemes.biz/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.0.9' type='text/css' media='all' /> -->
     <link rel="stylesheet" type="text/css" href="../wp-content/cache/wpfc-minified/7b0e14603013e01c80126810e9034ad4/1507873310index.css"
         media="all" />
@@ -314,7 +322,10 @@ nav.main-menu ul>li ul li {
                             <span>Monday to Saturday - 8am to 9pm</span>
                             <br class="visible-xs" />&nbsp;&nbsp;Contact :
                             <span>+1-800-654-3210</span>
-                        </p>
+                            <br/>
+                            <?php     include('commontop.php'); ?>
+
+                            </p>
                     </div>
                 </div>
             </div>

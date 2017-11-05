@@ -79,119 +79,14 @@
         </div>
     </div>
 </div>
-<!--
-<div class="home-doctors  clearfix">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 ">
-                <div class="slogan-section animated fadeInUp clearfix">
-                    <h2>Meet our
-                        <span>Medical Specialists</span>
-                    </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                        laoreet dolore magna aliquam erat volutpat.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 text-center doctor-wrapper">
-                <div class="common-doctor animated fadeInUp clearfix">
-                    <figure>
-                        <a href="doctor/dr-addison-alexander/index.html" title="Dr.Addison Alexander">
-                            <img width="670" height="500" src="wp-content/uploads/2014/05/doctor-2.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image"
-                                alt="" srcset="http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/doctor-2.jpg 670w, http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/doctor-2-300x224.jpg 300w"
-                                sizes="(max-width: 670px) 100vw, 670px" /> </a>
-                    </figure>
-                    <div class="text-content">
-                        <h5>
-                            <a href="doctor/dr-addison-alexander/index.html">Dr.Addison Alexander</a>
-                        </h5>
-                        <div class="for-border"></div>
-                        <p>
-                            This text represents a brief introduction of doctor and this text will be displayed on homepage and all the places where
-                            multiple doctors are listed. </p>
-                    </div>
-                </div>
-                <a class="read-more" href="doctor/dr-addison-alexander/index.html">Read More</a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 text-center doctor-wrapper">
-                <div class="common-doctor animated fadeInUp clearfix">
-                    <figure>
-                        <a href="doctor/dr-adaline-becka/index.html" title="Dr.Adaline Becka">
-                            <img width="670" height="500" src="wp-content/uploads/2014/05/doctor-1.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image"
-                                alt="" srcset="http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/doctor-1.jpg 670w, http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/doctor-1-300x224.jpg 300w"
-                                sizes="(max-width: 670px) 100vw, 670px" /> </a>
-                    </figure>
-                    <div class="text-content">
-                        <h5>
-                            <a href="doctor/dr-adaline-becka/index.html">Dr.Adaline Becka</a>
-                        </h5>
-                        <div class="for-border"></div>
-                        <p>
-                            This text represents a brief introduction of doctor and this text will be displayed on homepage and all the places where
-                            multiple doctors are listed. </p>
-                    </div>
-                </div>
-                <a class="read-more" href="doctor/dr-adaline-becka/index.html">Read More</a>
-            </div>
-            <div class="visible-sm clearfix"></div>
-            <div class="col-lg-3 col-md-3 col-sm-6 text-center doctor-wrapper">
-                <div class="common-doctor animated fadeInUp clearfix">
-                    <figure>
-                        <a href="doctor/dr-andrew-bert/index.html" title="Dr.Andrew Bert">
-                            <img width="670" height="500" src="wp-content/uploads/2014/05/doctor-4.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image"
-                                alt="" srcset="http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/doctor-4.jpg 670w, http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/doctor-4-300x224.jpg 300w"
-                                sizes="(max-width: 670px) 100vw, 670px" /> </a>
-                    </figure>
-                    <div class="text-content">
-                        <h5>
-                            <a href="doctor/dr-andrew-bert/index.html">Dr.Andrew Bert</a>
-                        </h5>
-                        <div class="for-border"></div>
-                        <p>
-                            This text represents a brief introduction of doctor and this text will be displayed on homepage and all the places where
-                            multiple doctors are listed. </p>
-                    </div>
-                </div>
-                <a class="read-more" href="doctor/dr-andrew-bert/index.html">Read More</a>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 text-center doctor-wrapper">
-                <div class="common-doctor animated fadeInUp clearfix">
-                    <figure>
-                        <a href="doctor/dr-orana-taleebin/index.html" title="Dr.Orana Taleebin">
-                            <img width="670" height="500" src="wp-content/uploads/2014/05/doctor-3.jpg" class="attachment-gallery-post-single size-gallery-post-single wp-post-image"
-                                alt="" srcset="http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/doctor-3.jpg 670w, http://medicalpress.inspirythemes.biz/wp-content/uploads/2014/05/doctor-3-300x224.jpg 300w"
-                                sizes="(max-width: 670px) 100vw, 670px" /> </a>
-                    </figure>
-                    <div class="text-content">
-                        <h5>
-                            <a href="doctor/dr-orana-taleebin/index.html">Dr.Orana Taleebin</a>
-                        </h5>
-                        <div class="for-border"></div>
-                        <p>
-                            This text represents a brief introduction of doctor and this text will be displayed on homepage and all the places where
-                            multiple doctors are listed. </p>
-                    </div>
-                </div>
-                <a class="read-more" href="doctor/dr-orana-taleebin/index.html">Read More</a>
-            </div>
-            <div class="visible-sm clearfix"></div>
-            <div class="hidden-sm clearfix"></div>
-        </div>
-
-    </div>
-
-</div>
--->
 <div class="home-blog text-center clearfix">
     <div class="container">
         <div class="row">
 
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="slogan-section animated fadeInUp clearfix">
-                    <h2>Latest News from
+                    <h2>Latest News from 
+
                         <span>Health and Medical</span>
                     </h2>
                     <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut

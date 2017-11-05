@@ -5,74 +5,74 @@
   $password = ""; 
   $dbname = "test";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+  // Create connection
+  $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
+  // Check connection
+   if ($conn->connect_error)
+    {
+      die("Connection failed: " . $conn->connect_error);
+    } 
 
-//echo "Connected successfully";
+  //echo "Connected successfully";
 
-if (isset($_POST['submit'])) 
-{	
+    if (isset($_POST['submit'])) 
+    {	
 		
-	$doc_id=$_POST[ 'doc_id']; 
-	$doc_pass=$_POST[ 'doc_pass']; 
-	$doc_name=$_POST[ 'doc_name'];
-	$doc_age=$_POST['doc_age'];
-	$doc_dob=$_POST['doc_dob'];
-	$doc_address=$_POST[ 'doc_address'];
-	$doc_country=$_POST[ 'doc_country'];
-	$doc_zip=$_POST[ 'doc_zip']; 
-	$doc_email=$_POST[ 'doc_email']; 
-	$doc_gender=$_POST[ 'doc_gender'];	
-	$doc_phoneno=$_POST['doc_phoneno'];
-	$doc_catid=$_POST[ 'doc_catid'];
-	$doc_certificateno=$_POST[ 'doc_certificateno'];
-	$doc_certificateimage_path=$_POST[ 'doc_certificateimage_path'];
-	$doc_education=$_POST[ 'doc_education'];
-	$doc_desc=$_POST[ 'doc_desc']; 
-	$doc_special=$_POST['doc_special']
+	  $doc_id=$_POST[ 'doc_id']; 
+	  $doc_pass=$_POST[ 'doc_pass']; 
+	  $doc_name=$_POST[ 'doc_name'];
+	  $doc_age=$_POST['doc_age'];
+	  $doc_dob=$_POST['doc_dob'];
+	  $doc_address=$_POST[ 'doc_address'];
+	  $doc_country=$_POST[ 'doc_country'];
+	  $doc_zip=$_POST[ 'doc_zip']; 
+	  $doc_email=$_POST[ 'doc_email']; 
+	  $doc_gender=$_POST[ 'doc_gender'];	
+	  $doc_phoneno=$_POST['doc_phoneno'];
+	  $doc_catid=$_POST[ 'doc_catid'];
+	  $doc_certificateno=$_POST[ 'doc_certificateno'];
+	  $doc_certificateimage_path=$_POST[ 'doc_certificateimage_path'];
+	  $doc_education=$_POST[ 'doc_education'];
+	  $doc_desc=$_POST[ 'doc_desc']; 
+	  $doc_special=$_POST['doc_special']
 
 
- //	$sql="INSERT INTO doc_reg(doc_id,doc_pass,doc_name,doc_age,doc_address,doc_country,doc_zip,doc_email,doc_gender,doc_phoneno,doc_catid,doc_certificateno,doc_certificateimage_path,doc_education,doc_desc) 
- //	VALUES ('$doc_id','$doc_pass','$doc_name','$doc_age','$date_of_bith','$doc_address','$doc_country','$ZIP_cpde','$mail','$gender','$doc_education','$about')";
+      //	$sql="INSERT INTO doc_reg(doc_id,doc_pass,doc_name,doc_age,doc_address,doc_country,doc_zip,doc_email,doc_gender,doc_phoneno,doc_catid,doc_certificateno,doc_certificateimage_path,doc_education,doc_desc) 
+      //	VALUES ('$doc_id','$doc_pass','$doc_name','$doc_age','$date_of_bith','$doc_address','$doc_country','$ZIP_cpde','$mail','$gender','$doc_education','$about')";
 
 	
 
-	$sql="INSERT INTO doc_reg(doc_id,doc_pass,doc_name,doc_age,doc_dob,doc_address,doc_country,doc_zip,doc_email,doc_gender,doc_phoneno,doc_catid,doc_certificateno,doc_certificateimage_path.doc_education,doc_desc,doc_special)
-	VALUES ('$doc_id','$doc_pass','$doc_name','$doc_age','$doc_dob','$doc_address','$doc_country','$doc_zip','$doc_email','$doc_gender','$doc_phoneno','$doc_category','$doc_certificateno','$doc_certificateimage_path','$doc_education','$doc_desc','$doc_special')";
+	  $sql="INSERT INTO doc_reg(doc_id,doc_pass,doc_name,doc_age,doc_dob,doc_address,doc_country,doc_zip,doc_email,doc_gender,doc_phoneno,doc_catid,doc_certificateno,doc_certificateimage_path.doc_education,doc_desc,doc_special)
+	  VALUES ('$doc_id','$doc_pass','$doc_name','$doc_age','$doc_dob','$doc_address','$doc_country','$doc_zip','$doc_email','$doc_gender','$doc_phoneno','$doc_category','$doc_certificateno','$doc_certificateimage_path','$doc_education','$doc_desc','$doc_special')";
 
-	//$result = mysqli_query($conn,$sql);
+	  //$result = mysqli_query($conn,$sql);
 
 
-	if ($conn->query($sql) === TRUE)
-	{
-		echo "New record created successfully";
-	} 
-	else
-	{
-		echo "Error: " . $sql . "<br>" . $conn->error;
-	}
+	   if ($conn->query($sql) === TRUE)
+	    {
+		  echo "New record created successfully";
+	    } 
+	   else
+	    {
+		 echo "Error: " . $sql . "<br>" . $conn->error;
+	    }
 	
-	  $conn->close();
+	   $conn->close();
 
 
 
 
-}
+    }
 
 
 ?>
 
-	<div class="row">
+<div class="row">
 
     <div class="col-md-6 col-sm-12 col-lg-6 col-md-offset-3">
 		<div class="panel panel-primary"> 
-			<div class="panel-heading">Enter Your Details Here
-			</div>
+			<div class="panel-heading">Enter Your Details Here</div>
 			<div class="panel-body">
 				<form name="myform"  method="post">
 					<div class="form-group">
