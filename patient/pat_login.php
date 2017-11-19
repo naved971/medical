@@ -1,7 +1,4 @@
-<?php include('../common/header.php');
-
-
-?>
+<?php include('../common/header.php');?>
 <div class="patlogin">
 
 
@@ -72,9 +69,8 @@ if(isset($_POST['submit']) && ($_POST['submit'] == "submit")      )
 						<input id="user_pass" name="user_pass" class="form-control" type="password" data-validation="email">
 						<span id="error_user_pass" class="text-danger"></span>
 					</div>
-          <button id="submit" type="submit" value="submit" name="submit" class="btn btn-primary center">Submit</button>
-          <input type="button" value="Home" class="homebutton" id="btnHome" onClick="Javascript:window.location.href = 'pat_reg.php';" />
-				<!--	<button id="gotoLogin"  value="Log In"  class="btn btn-primary center">Registrater First</button>   -->
+					<button id="submit" type="submit" value="submit" name="submit" class="btn btn-primary center">Submit</button>
+				<a class="btn btn-primary center" href="../patient/pat_reg.php">Register First</a>
 
 				</form>
 

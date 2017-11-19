@@ -70,11 +70,10 @@ var dataString = 'search='+ searchid;
 if(searchid != "" ){
     $.ajax({
     type: "POST",
-    url: "../common/result.php",
+    url: "../medical/common/result.php",
     data: dataString,
     cache: false,
-    success: function(html)
-    {
+    success: function(html){
     $("#result").html(html).show();
     }
     });

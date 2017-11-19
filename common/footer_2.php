@@ -5,40 +5,11 @@
 
             <div class=" col-lg-3 col-md-3 col-sm-6  ">
                 <section id="text-1" class="widget animated fadeInLeft widget_text">
-                    <h3 class="title">About MedicalPress</h3>
+                    <h3 class="title">About Online Medical Help Support</h3>
                     <div class="textwidget">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-                            ut laoreet dolore magna aliquam erat volutpat. </p>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-                            ex ea commodo consequat.</p>
-                    </div>
-                </section>
-            </div>
-
-            <div class=" col-lg-3 col-md-3 col-sm-6  ">
-                <section id="displaytweetswidget-1" class="widget animated fadeInLeft widget_displaytweetswidget">
-                    <h3 class="title">Latest Tweets</h3>
-                    <p>Real Homes Version 3.3.1 is available for download.
-                        <a href="https://t.co/AYedmII9oa" target="_blank">https://t.co/AYedmII9oa</a>
-                        <a href="http://twitter.com/search?q=%23realestate&amp;src=hash" target="_blank">#realestate</a>
-                        <a href="http://twitter.com/search?q=%23mls&amp;src=hash" target="_blank">#mls</a>
-                        <a href="http://twitter.com/search?q=%23idx&amp;src=hash" target="_blank">#idx</a>
-                        <a href="http://twitter.com/search?q=%23ihomefinder&amp;src=hash" target="_blank">#ihomefinder</a>
-                        <a href="http://twitter.com/search?q=%23dsidxpress&amp;src=hash" target="_blank">#dsidxpress</a>
-                        <br />
-                        <small class="muted">- Thursday Oct 19 - 1:40pm</small>
-                    </p>
-                    <p>Real Homes 3.3.0 is available for download
-                        <a href="https://t.co/8INIrE9ilF" target="_blank">https://t.co/8INIrE9ilF</a> and We have arranged its exclusive demos with ihomefinder and dsIDXpress
-                        <br />
-                        <small class="muted">- Friday Oct 6 - 5:33am</small>
-                    </p>
-                    <p>Check out 'BuilderPress Theme for Construction, Architecture and Interior Design Industry' by
-                        <a href="http://www.twitter.com/InspiryThemes" target="_blank">@InspiryThemes</a>
-                        <a href="https://t.co/AhPvjV6lph" target="_blank">https://t.co/AhPvjV6lph</a>
-                        <br />
-                        <small class="muted">- Friday Oct 6 - 5:23am</small>
-                    </p>
+                    <p>As the increase in growing health problems and inquiries — Online Medical Help Support's mission is to be your most trusted ally in your pursuit of health and well-being.You can depend on us to provide expert content along with genuine caring. Both of which will support, guide, and inspire you toward the best possible health outcomes for you and your family.</p>
+                    <p>Bottom line: We’re human, just like you. We know that peace of mind can make all the difference in how you feel. So we’ll be here when you need us</p>
+                </div>
                 </section>
             </div>
 
@@ -46,7 +17,7 @@
 
             <div class=" col-lg-3 col-md-3 col-sm-6  ">
                 <section id="recent-posts-1" class="widget animated fadeInLeft widget_recent_entries">
-                    <h3 class="title">Recent Posts</h3>
+                   <!-- <h3 class="title">Recent Posts</h3>
                     <ul>
                         <li>
                             <a href="image-post-format/index.html">Image Post Format</a>
@@ -63,7 +34,7 @@
                         <li>
                             <a href="the-hero-in-all-of-us/index.html">The Hero In All Of Us</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </section>
             </div>
 
@@ -71,10 +42,10 @@
                 <section id="wp_email_capture_widget_class-1" class="widget animated fadeInLeft widget_wp_email_capture_widget_class">
                     <h3 class="title">Newsletter Sign Up </h3>
                     <div class="textwidget">
-                        <p>Stay updated with latest news from Medical Press.</p>
-                    </div>
+                        <p>Stay updated with latest news from Online Medical Help Support.</p>
+                        </div>
                     <div id="wp_email_capture" class="wp-email-capture wp-email-capture-widget wp-email-capture-widget-worldwide">
-                        <form name="wp_email_capture" method="post" action="http://medicalpress.inspirythemes.biz/">
+                        <form name="wp_email_capture" method="post" action="">
 
 
                             <label class="wp-email-capture-name wp-email-capture-label wp-email-capture-widget-worldwide wp-email-capture-name-widget wp-email-capture-name-label wp-email-capture-name-label-widget"
@@ -104,48 +75,33 @@
                 <div class="footer-bottom animated fadeInDown clearfix">
                     <div class="row">
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 ">
-                            <p>© Copyright 2014. All Rights Reserved by Medical Press</p>
-                        </div>
+                            <p>©Copyright 2017. All Rights Reserved by Online Medical Help Support</p>
+                            </div>
                         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12  clearfix">
                             <ul class="footer-social-nav">
                                 <li>
-                                    <a target="_blank" href="https://twitter.com/InspiryThemes">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="https://www.facebook.com/InspiryThemes">
+                                    <a target="_blank" href="https://www.facebook.com/ahmaddanishk">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://plus.google.com/105667798414314247471">
+                                    <a target="_blank" href="https://www.google.co.in/search?q=ahmad+danish+khan&rlz=1C1CHBF_enIN765IN765&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiLq9rE4qrXAhXGQo8KHavDCNMQ_AUIDCgD&biw=1517&bih=681#imgrc=re3sqZtZ-QsiFM:">
                                         <i class="fa fa-google-plus"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#linkedin">
+                                    <a target="_blank" href="https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiZ2KSFkKrXAhVRhrwKHf35AQUQjRwIBw&url=https%3A%2F%2Fin.linkedin.com%2Fin%2Fahmad-danish-khan-10337512b&psig=AOvVaw3Tu4zmk9cuss56aWNFjoq3&ust=1510063699524201">
                                         <i class="fa fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#instagram">
+                                    <a target="_blank" href="https://www.instagram.com/danish21752/">
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="#youtube">
+                                    <a target="_blank" href="https://www.youtube.com/channel/UC87z31KtTzrSdlzma_rUUNA">
                                         <i class="fa fa-youtube"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="skype:skypeusername?add">
-                                        <i class="fa fa-skype"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="feed/index.html">
-                                        <i class="fa fa-rss"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -160,7 +116,7 @@
 </div>
 <!-- #page -->
 <a href="#top" id="scroll-top"></a>
-<!-- Start of LiveChat (www.livechatinc.com) code -->
+<!-- Start of LiveChat (www.livechatinc.com) code 
 <script type="text/javascript">
     window.__lc = window.__lc || {};
     window.__lc.license = 9089780;

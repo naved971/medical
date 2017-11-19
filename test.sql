@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.7.0
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 05, 2017 at 02:46 PM
--- Server version: 10.1.16-MariaDB
--- PHP Version: 5.6.24
+-- Generation Time: Nov 19, 2017 at 05:50 AM
+-- Server version: 10.1.26-MariaDB
+-- PHP Version: 7.1.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -36,26 +38,6 @@ CREATE TABLE `appointment` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ar_internal_metadata`
---
-
-CREATE TABLE `ar_internal_metadata` (
-  `key` varchar(255) NOT NULL,
-  `value` varchar(255) DEFAULT NULL,
-  `created_at` datetime NOT NULL,
-  `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `ar_internal_metadata`
---
-
-INSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES
-('environment', 'development', '2017-07-29 20:31:54', '2017-07-29 20:31:54');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `doc_cat`
 --
 
@@ -70,8 +52,8 @@ CREATE TABLE `doc_cat` (
 --
 
 INSERT INTO `doc_cat` (`doc_catid`, `doc_cat`, `doc_id`) VALUES
-(1, 'Heart', 'danish123'),
-(2, 'GABC', 'yasirrrr');
+(123, 'heart', 'danish123'),
+(1234, 'brain', 'yasir219');
 
 -- --------------------------------------------------------
 
@@ -96,66 +78,18 @@ CREATE TABLE `doc_reg` (
   `doc_email` varchar(50) DEFAULT NULL,
   `doc_gender` char(20) DEFAULT NULL,
   `doc_desc` varchar(500) DEFAULT NULL,
-  `doc_special` varchar(200) DEFAULT NULL,
-  `doc_location` varchar(100) NOT NULL
+  `doc_special` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `doc_reg`
 --
 
-INSERT INTO `doc_reg` (`doc_id`, `doc_pass`, `doc_name`, `doc_dob`, `doc_phoneno`, `doc_catid`, `doc_certificateno`, `doc_certificateimage_path`, `doc_zip`, `doc_education`, `doc_age`, `doc_address`, `doc_country`, `doc_email`, `doc_gender`, `doc_desc`, `doc_special`, `doc_location`) VALUES
-('1', '', 'A1', '0000-00-00', '991', 1, '', '', '', '', 0, '', '', '', 'Male', '', NULL, 'New Delhi'),
-('2', '', 'B2', '0000-00-00', '992', 2, '', '', '', '', 0, '', '', '', 'Male', '', NULL, 'Delhi'),
-('3', 'be', 'C3', '0000-00-00', '993', 1, '', '', '', '', 0, '', '', '', 'Male', '', NULL, 'Ajmer'),
-('5', '', 'D4', '0000-00-00', '994', 1, '', '', '', '', 0, '', '', '', 'Male', '', NULL, 'Aligarh'),
-('7', '', 'D5', '0000-00-00', '995', 1, '', '', '', '', 0, '', '', '', 'Male', '', NULL, 'New Delhi'),
-('danish123', 'danish123', 'Ahmed Danish Khan', '1998-01-02', '8755984902', 2, '123456', 'kmlfek/fa/fkef', '110006', 'university of aligarh , AMU', 20, 'h;no-971,pai street,H.H.H, ballimaran,chandnichok,delhi-110006', 'india', 'danish21752@gmail.com', 'Male', 'jaefnijb', NULL, 'Aligarh'),
-('yasirrrr', '', 'yasiirri', '0000-00-00', '996', 1, '', '', '', '', 0, 'oihoiiojoij', '', '', 'Male', '', NULL, 'New Delhi');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `employee`
---
-
-CREATE TABLE `employee` (
-  `empid` int(10) NOT NULL,
-  `empname` text NOT NULL,
-  `empsal` int(11) NOT NULL,
-  `emp_add` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `employee`
---
-
-INSERT INTO `employee` (`empid`, `empname`, `empsal`, `emp_add`) VALUES
-(2, 'ronish', 200, ''),
-(3, 'inaya', 300, ''),
-(4, 'amin', 400, ''),
-(1, 'naved', 100, '');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `employees`
---
-
-CREATE TABLE `employees` (
-  `id` bigint(20) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL,
-  `created_at` datetime NOT NULL,
-  `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `employees`
---
-
-INSERT INTO `employees` (`id`, `email`, `password`, `created_at`, `updated_at`) VALUES
-(1, 'a', '2', '2017-07-30 07:57:46', '2017-07-30 07:57:46');
+INSERT INTO `doc_reg` (`doc_id`, `doc_pass`, `doc_name`, `doc_dob`, `doc_phoneno`, `doc_catid`, `doc_certificateno`, `doc_certificateimage_path`, `doc_zip`, `doc_education`, `doc_age`, `doc_address`, `doc_country`, `doc_email`, `doc_gender`, `doc_desc`, `doc_special`) VALUES
+('dae', 'dae', 'daesw', '0000-00-00', '', 0, '', '', '', '', 0, '', '', '', 'Male', '', NULL),
+('danish123', 'danish123', 'AHMAD DANISH KHAN', '1998-01-02', '8755984902', 0, '123456', 'kmlfek/fa/fkef', '110006', 'university of aligarh , AMU', 20, 'h;no-971,pai street,H.H.H, ballimaran,chandnichok,delhi-110006', 'india', 'danish21752@gmail.com', 'Male', 'jaefnijb', NULL),
+('yasir219', 'whocares', 'MOHAMMAD YASIR', '1997-04-01', '9587456014', 0, '1254245', 'HJNVJDKHNT', '202002', 'MD', 20, 'ROOM NO.04,NADEEM TARIN HALL,AMU,ALIGARH-202002', 'INDIA', 'dsgryuguyf@gmail.com', 'Male', '', NULL),
+('yasirrrr', '', 'yasiirri', '0000-00-00', '', 0, '', '', '', '', 0, 'oihoiiojoij', '', '', 'Male', '', NULL);
 
 -- --------------------------------------------------------
 
@@ -174,19 +108,15 @@ CREATE TABLE `hospital` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `schema_migrations`
+-- Table structure for table `logs`
 --
 
-CREATE TABLE `schema_migrations` (
-  `version` varchar(255) NOT NULL
+CREATE TABLE `logs` (
+  `id` int(30) NOT NULL,
+  `doc_id` varchar(30) NOT NULL,
+  `user_id` varchar(30) NOT NULL,
+  `msg` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `schema_migrations`
---
-
-INSERT INTO `schema_migrations` (`version`) VALUES
-('20170729202426');
 
 -- --------------------------------------------------------
 
@@ -195,18 +125,10 @@ INSERT INTO `schema_migrations` (`version`) VALUES
 --
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
-  `name` text NOT NULL
+  `id` int(30) NOT NULL,
+  `user_id` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`) VALUES
-(12, 'Hello'),
-(101, 'Danish'),
-(101, 'Danish');
 
 -- --------------------------------------------------------
 
@@ -232,13 +154,10 @@ CREATE TABLE `user_reg` (
 --
 
 INSERT INTO `user_reg` (`user_id`, `user_pass`, `user_name`, `user_dob`, `user_phone`, `user_maritual_status`, `user_desc`, `user_age`, `user_email`, `user_gender`) VALUES
-('1', '222', 'sds', '0000-00-00', 'jkhn', 'N', 'huyuh', 21, 'htfhtgch', 'Male'),
+('', '', '', '0000-00-00', '', 'N', '', 0, '', 'Male'),
+('ade', 'ade', 'ades', '0000-00-00', '', 'N', '', 0, '', 'Male'),
 ('danish1234', 'danish1234', 'AHMAD DANISH KHAN', '1998-01-02', '8755984902', NULL, 'acsjnoj', 20, 'danish21752@gmail.com', 'Male'),
-('esvgwg', 'gwrg', 'bw', '0000-00-00', '', NULL, '', 0, '', 'Male'),
-('kamran', 'kamran', 'kammu', '0000-00-00', '', 'N', '', 0, '', 'Male'),
-('mayank', 'mayank', 'my sahara', '0000-00-00', '', 'N', '', 30, '', 'Male'),
-('minhajbro', 'minhaj123', 'bro', '0000-00-00', '', 'N', '', 12, '', 'Male'),
-('rishaddd', 'rishadd123', 'rished', '2017-10-02', '187631', 'M', '', 30, 'djaj@gmial', 'Male');
+('kamran', 'kamran', 'kammu', '0000-00-00', '', 'N', '', 0, '', 'Male');
 
 --
 -- Indexes for dumped tables
@@ -251,12 +170,6 @@ ALTER TABLE `appointment`
   ADD PRIMARY KEY (`appointment_id`),
   ADD KEY `idx_appointment` (`user_id`),
   ADD KEY `idx_appointment_0` (`doc_id`);
-
---
--- Indexes for table `ar_internal_metadata`
---
-ALTER TABLE `ar_internal_metadata`
-  ADD PRIMARY KEY (`key`);
 
 --
 -- Indexes for table `doc_cat`
@@ -272,12 +185,6 @@ ALTER TABLE `doc_reg`
   ADD PRIMARY KEY (`doc_id`);
 
 --
--- Indexes for table `employees`
---
-ALTER TABLE `employees`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `hospital`
 --
 ALTER TABLE `hospital`
@@ -285,10 +192,18 @@ ALTER TABLE `hospital`
   ADD KEY `idx_hospital` (`doc_id`);
 
 --
--- Indexes for table `schema_migrations`
+-- Indexes for table `logs`
 --
-ALTER TABLE `schema_migrations`
-  ADD PRIMARY KEY (`version`);
+ALTER TABLE `logs`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `doc_id` (`doc_id`),
+  ADD KEY `user_id` (`user_id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `user_reg`
@@ -309,12 +224,17 @@ ALTER TABLE `appointment`
 -- AUTO_INCREMENT for table `doc_cat`
 --
 ALTER TABLE `doc_cat`
-  MODIFY `doc_catid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `doc_catid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1235;
 --
--- AUTO_INCREMENT for table `employees`
+-- AUTO_INCREMENT for table `logs`
 --
-ALTER TABLE `employees`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `logs`
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT;
 --
 -- Constraints for dumped tables
 --
@@ -337,6 +257,14 @@ ALTER TABLE `doc_cat`
 --
 ALTER TABLE `hospital`
   ADD CONSTRAINT `fk_hospital_doc_reg` FOREIGN KEY (`doc_id`) REFERENCES `doc_reg` (`doc_id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+--
+-- Constraints for table `logs`
+--
+ALTER TABLE `logs`
+  ADD CONSTRAINT `logs_ibfk_1` FOREIGN KEY (`doc_id`) REFERENCES `doc_reg` (`doc_id`),
+  ADD CONSTRAINT `logs_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user_reg` (`user_id`);
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -8,10 +8,9 @@
                     <h2>
                         <span>Health and Medical</span> Just for You</h2>
 
-                    <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                        laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
-              <!--      <a class="read-more" href="services/index.html">View Our Services</a>  -->
-                </div>
+                    <p>The human body experiences a powerful gravitational pull in the direction of hope. That is why the patient's hopes are the physician's secret weapon. They are the hidden ingredients in any prescription.</p>
+                    <!--      <a class="read-more" href="services/index.html">View Our Services</a>  -->
+                      </div>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 ">
                 <div class="row">
@@ -24,9 +23,8 @@
                             <div class="col-lg-9 col-md-9 col-sm-9">
                                 <h3>
                                     Rehabilitation Center </h3>
-                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat.-->.Exampleeeee</p>
-                            </div>
+                                    <p>Sometimes it takes dealing with a disability - the trauma, the relearning, the months of rehabilitation therapy - to uncover our true abilities and how we can put them to work for us in ways we may have never imagined.</p>
+                                    </div>
                         </div>
                     </div>
 
@@ -38,9 +36,9 @@
                             <div class="col-lg-9 col-md-9 col-sm-9">
                                 <h3>
                                     Medical Counseling </h3>
-                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
-                            </div>
+                                    <p>Therapy is not about having someone else take control of your lifeof "FEELING GOOD"... </p>
+                                    <p>Therapy is about learning to take control of your life and making changes</p>
+                                </div>
                         </div>
                     </div>
                     <div class="visible-lg clearfix"></div>
@@ -54,23 +52,8 @@
                             <div class="col-lg-9 col-md-9 col-sm-9">
                                 <h3>
                                     Qualified Doctors </h3>
-                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 col-sm-6 single-feature">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-3 icon-wrapper">
-                                <i class="fa fa-ambulance"></i>
-                            </div>
-                            <div class="col-lg-9 col-md-9 col-sm-9">
-                                <h3>
-                                    Emergency Services </h3>
-                                <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat.-->Exampleeeee.</p>
-                            </div>
+                                    <p>Patients trust doctors with their lives and wellbeing. ... By keeping up-to-date information of qualified doctors, we aim to ensure that all registered doctors maintain the standards the public and the medical profession expect. </p>
+                                    </div>
                         </div>
                     </div>
 
@@ -79,6 +62,7 @@
         </div>
     </div>
 </div>
+<!--
 <div class="home-blog text-center clearfix">
     <div class="container">
         <div class="row">
@@ -90,7 +74,7 @@
                         <span>Health and Medical</span>
                     </h2>
                     <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
+                    laoreet dolore magna aliquam erat volutpat.Exampleeeee</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-6 ">
@@ -114,7 +98,7 @@
                                 </div>
                                 <div class="for-border"></div>
                                 <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat.-->Exampleeeee</p>
+                                laoreet dolore magna aliquam erat volutpat.Exampleeeee</p>
                             </div>
                         </article>
                         <a class="read-more" href="">Read More</a>
@@ -158,7 +142,7 @@
                                 </div>
                                 <div class="for-border"></div>
                                 <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                                laoreet dolore magna aliquam erat volutpat.--> Exampleeeee</p>
+                                laoreet dolore magna aliquam erat volutpat. Exampleeeee</p>
                             </div>
                         </article>
                         <a class="read-more" href="gallery-post-format/index.html">Read More</a>
@@ -188,25 +172,24 @@
                             </div>
                         </article>
                         <a class="read-more" href="the-hero-in-all-of-us/index.html">Read More</a>
-                    </div> -->
+                    </div> 
                 </div>
             </div>
 
         </div>
     </div>
 </div>
-
+                                    -->
 <div class="home-testimonial  clearfix">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <div class="slogan-section animated fadeInUp clearfix">
                     <h2>What patients say
-                        <span>About OHMS</span>
+                        <span>About OMHS</span>
                     </h2>
-                    <p><!--Lorem ipsum dolor ROnish Ipsum, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat.-->Love your website. Simple yet effective. One of the best I have seen.</p>
-                </div>
+                    <p>Love your website. Simple yet effective. One of the best I have seen.</p>
+                    </div>
             </div>
 
             <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 text-center">

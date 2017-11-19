@@ -33,7 +33,7 @@ session_start();
     <link rel="alternate" type="application/rss+xml" title="Medical Press" href="feed/index.html" />
     <link rel="alternate" type="application/atom+xml" title="Medical Press" href="feed/atom/index.html" />
 
-    <title>Medical Press &#8211; Just another WordPress site</title>
+    <title>Online Medical Help Support  &#8211; Just another WordPress site</title>
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
     <link rel='dns-prefetch' href='http://s.w.org/' />
     <link rel="alternate" type="application/rss+xml" title="Medical Press &raquo; Feed" href="feed/index.html" />
@@ -56,7 +56,7 @@ session_start();
             padding: 0 !important;
         }
     </style>
-   <!-- <?php include('commonfiles.php')?>  -->
+   <?php include('commonfiles.php')?>  
     <!-- <link rel='stylesheet' id='rs-plugin-settings-css'  href='http://medicalpress.inspirythemes.biz/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.0.9' type='text/css' media='all' /> -->
     <link rel="stylesheet" type="text/css" href="wp-content/cache/wpfc-minified/7b0e14603013e01c80126810e9034ad4/1507873310index.css"
     media="all" />
@@ -111,6 +111,50 @@ session_start();
     <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed0a09?url=http%3A%2F%2Fmedicalpress.inspirythemes.biz%2F&amp;format=xml"
     />
     <style type='text/css' id='inspiry-dynamic-css'>
+    .docregis  .palel-primary {
+    border-color: #bce8f1;
+}
+
+.docregis .panel-primary>.panel-heading {
+    background: #bce8f1;
+}
+
+.docregis .panel-primary>.panel-body {
+    background-color: #bce8f1;
+}
+.patregis  .palel-primary {
+    border-color: #67c9e0;
+}
+
+.patregis .panel-primary>.panel-heading {
+    background: #67c9e0;
+}
+
+.patregis .panel-primary>.panel-body {
+    background-color: #bce8f1;
+}
+.patlogin  .palel-primary {
+    border-color: #67c9e0;
+}
+
+.patlogin .panel-primary>.panel-heading {
+    background: #67c9e0;
+}
+
+.patlogin .panel-primary>.panel-body {
+    background-color: #bce8f1;
+}
+.doclogin  .palel-primary {
+    border-color: #67c9e0;
+}
+
+.doclogin .panel-primary>.panel-heading {
+    background: #67c9e0;
+}
+
+.doclogin .panel-primary>.panel-body {
+    background-color: #bce8f1;
+}
         nav.main-menu ul>li ul li {
             border-color: #73d1e7;
         }
@@ -277,7 +321,7 @@ session_start();
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 ">
-                        <p>Welcome to OHMS(****ONLINE MEDICAL HELP****)  a website for YOU.</p>
+                    <p>Welcome to OMHS(Online Medical Help Support) - Website For You.</p>
                     </div>
                     <div class="col-lg-7 col-md-7  text-right">
                         <p>
@@ -303,80 +347,25 @@ session_start();
                         <!-- Website Logo -->
                         <div class="logo clearfix">
                             <a href="index.php">
-                                <img src="https://www.vistaprint.in/any/preview/viewlogo.aspx?cnf=OMHS&icid=1079&csid=106&fsid=2&txid=7&tid=1&cfid=0&xcf=&arid=8&msid=0&drid=0&width=140&height=110" alt="Medical Press" />
+                                <img src="https://www.vistaprint.in/any/preview/viewlogo.aspx?cnf=OMHS&icid=1079&csid=106&fsid=2&txid=7&tid=1&cfid=0&xcf=&arid=8&msid=0&drid=0&width=140&height=110" alt="Online Medical Help Support" />
                             </a>
                         </div>
 
                         <!-- Main Navigation -->
-                        <nav class="main-menu">
-                            <ul id="menu-main-menu" class="header-nav clearfix">
-                                <li id="menu-item-352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-11 current_page_item menu-item-has-children menu-item-352">
-                                  <a href="index.php">Home</a>   <!--  <a>Home</a>       -->                            
-                                </li>
-                                <li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-307">
-                                    <a href="#">Doctors Forum</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
-                                            <a href="doctors/doctorInformations.php">Doctor Information</a>
-                                        </li>
-                                        <li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304">
-                                            <a href="doctors/doctorinformation.php">Register As Doctor</a>
-                                        </li>
-                                        <li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304">
-                                            <a href="doctors/doctorinformation.php">Doctor Login</a>
-                                        </li>
-                                    </ul>
-                                </li>
-     
-                                <li id="menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-308">
-                                    <a href="#">Patient Login</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
-                                            <a href="patient/pat_reg.php">Patient Registration</a>
-                                        </li>
-                                          
-                                        <li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311">
-                                            <a href="patient/pat_login.php">Patient Login</a>
-                                        </li>
-                                         
-                                        <li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310">
-                                            <a href="appointments/appoint_info.php">appoinments</a>
-                                        </li>
-                                      
-                                    </ul> 
-                                </li>
-                                <li id="menu-item-297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-297">
-                                    <a href="#">Pages</a>
-                                  <ul class="sub-menu">
-                                  <!--  
-                                        <li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-313">
-                                            <a href="faqs/index.html">FAQs</a>
-                                        </li>
-                                        <li id="menu-item-312" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-312">
-                                            <a href="full-width-faqs/index.html">Full Width FAQs</a>
-                                        </li>
-                                        <li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-319">
-                                            <a href="shortcodes/index.html">Shortcodes</a>
-                                        </li>
-                                        <li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320">
-                                            <a href="columns/index.html">Columns</a>
-                                        </li>
-                                        <li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298">
-                                            <a href="sample-page/index.html">Sample Page</a>
-                                        </li>
-                                        -->
-                                        </ul> 
-                                   
-                                </li>
-                                <li id="menu-item-321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-321">
-                                    <a href="#">Appointment</a>
-                                </li>
-                                <li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318">
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
+                        <?php
+                        if (isset($_SESSION['user_type']) && isset($_SESSION['login'])  &&  $_SESSION['login'] == "1" && $_SESSION['user_type']=="p") 
+                        {
+                         include("patient_menus.php");
+                         }
+                        else if (isset($_SESSION['user_type']) && isset($_SESSION['login'])  &&  $_SESSION['login'] == "1" && $_SESSION['user_type']=="d" )
+                         {  
+                            include("doctor_menus.php");
+                         }
+                         else{
+                            include("common_menus1.php");
+                        }
 
+                        ?>
                         <div id="responsive-menu-container"></div>
 
                     </div>
@@ -395,9 +384,9 @@ session_start();
                                     <h2>Medical Services
                                         <span>That You Can Trust</span>
                                     </h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod.</p>
-                                    <a class="btn" href="doctors/index.html">Read More</a>
-                                </div>
+                                    <p>Let Us Help You Redefine Health.</p>
+                                    <!--  <a class="btn" href="doctors/index.html">Read More</a> -->
+                                  </div>
                             </div>
                         </div>
                     </li>
@@ -411,9 +400,9 @@ session_start();
                                         <span>Care</span> for
                                         <span>You</span>
                                     </h2>
-                                    <p>blaa blaaa blaaa</p>
-                                    <a class="btn" href="services/index.html">Read More</a>
-                                </div>
+                                    <p>It is health that is real wealth and not pieces of gold and silver.</p>
+                                    <!--  <a class="btn" href="services/index.html">Read More</a> -->
+                                  </div>
                             </div>
                         </div>
                     </li>
@@ -426,7 +415,7 @@ session_start();
                                     <h2>Qualified Staff With
                                         <span>Expertise in Services We Offer</span>
                                     </h2>
-                                    <a class="btn" href="gallery/index.html">Read More</a>
+                                     <!--  <a class="btn" href="gallery/index.html">Read More</a>  -->
                                 </div>
                             </div>
                         </div>
@@ -437,7 +426,7 @@ session_start();
     
             <?php 
                 
-if( isset($_SESSION['user_type']) && isset($_SESSION['login'])     &&      $_SESSION['login'] == "1"  && $_SESSION['user_type'] == 'p' ){
+if( isset($_SESSION['user_type']) && isset($_SESSION['login'])     &&      $_SESSION['login'] == "1"  &&  ( $_SESSION['user_type'] == 'p' || $_SESSION['user_type'] == 'd' ) ){
 
     include('common/appointment.php');
     

@@ -14,9 +14,7 @@
    if ($conn->connect_error)
     {
       die("Connection failed: " . $conn->connect_error);
-    } 
-
-   echo "Connected successfully";
+    }
 
    if (isset($_POST['submit'])) 
     {	
@@ -48,18 +46,12 @@
     }
 ?>
 
-
-
-
-
-
-
 <div class="col-md-6 col-sm-12 col-lg-6 col-md-offset-3">
 	<div class="panel panel-primary"> 
 		<div class="panel-heading">Enter Your Details Here
 		</div>
 		<div class="panel-body">
-        <form name="myform"  action="pat_reg.php" method="post">
+            <form name="myform"  action="pat_reg.php" method="post">
 				<div class="form-group">
 					<label for="user_id">User Id*</label>
 					<input id="user_id" name="user_id" class="form-control" type="text" data-validation="required">
@@ -115,45 +107,12 @@
 				<div class="form-group">
 					<label for=" desc">Discription</label><input name="user_desc" rows="6">
 					<textarea class="form-control" rows="6"></textarea> </input>
-				</div>	
-
-                
-  
-
-        <div class="container">
-  <h2>Modal Example</h2>
-  <!-- Trigger the modal with a button -->
-  <!--<button type="button" class="btn btn-info btn-lg" name="submit" data-toggle="modal" data-target="#myModal">Submit</button>
-      -->    
-	  <input type="submit" name="submit">      
-      <!--          <button id="submit" type="button" value="submit" name="submit" data-toggle="modal" class="btn btn-info btn-lg">Submit</button>
-          -->    
-<!-- Modal -->
-<div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-
-        <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">INFORMATION FOR YOU!!</h4>
-        </div>
-        <div class="modal-body">
-          <p>REGISTRATION SUCCESSFUL.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary center" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      </div>
-  </div>
-  
-</div>
-      
-				<button id="gotoLogin"  value="Log In"  class="btn btn-primary center">Log in</button>
-
+				</div>  
+				<button id="submit" type="submit" value="submit" name="submit" class="btn btn-primary center">Submit</button>
+				<a href="../patient/pat_login.php" class="btn btn-primary center">Already registered?</a>
+				
 			</form>
-            </div>
+        </div>
 	</div>
   
 </div>
