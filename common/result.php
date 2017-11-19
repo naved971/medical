@@ -13,6 +13,8 @@ if($_POST)
         $doc_id   = $row['doc_id'];
         $doc_cat      = $row['doc_cat'];
         $doc_name      = $row['doc_name'];
+        $doc_catid      = $row['doc_catid'];
+        
         //   $b_username = '<strong>'.$q.'</strong>';
       //  $b_email    = '<strong>'.$q.'</strong>';
       //  $final_username = str_ireplace($q, $b_username, $username);
@@ -23,7 +25,8 @@ if($_POST)
                  style="width:50px; height:50px; float:left; margin-right:6px;" />
                    <span class="name"><?php echo $doc_cat; ?>
                     </span>
-                    
+                    <span style="display:none;"  class="catid"><?php echo $doc_catid; ?>
+                    </span>
                     &nbsp;<br/>
            
 <!--                  <?php echo $doc_cat; ?>

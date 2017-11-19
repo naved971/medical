@@ -74,7 +74,7 @@ if(searchid != "" ){
     data: dataString,
     cache: false,
     success: function(html){
-    $("#result").html(html).show();
+     $("#result").html(html).show();
     }
     });
 }else{
@@ -86,10 +86,32 @@ return false;
 
 
 jQuery("#result").on("click",function(e){ 
+    debugger;
+
     var $clicked = $(e.target);
     var $name = $clicked.find('.name').html();
+    if($name === undefined) return;
     var decoded = $("<div/>").html($name.trim()).text();
     $('#searchid').val(decoded);
+    var $catid = $clicked.find('.catid').html();
+
+    var docString = 'sinfo='+ decoded + "&catid="+ $catid;
+
+
+    $.ajax({
+    type: "POST",
+    url: "../medical/common/doctor_result.php",
+    data: docString,
+    cache: false,
+    success: function(html){
+        $("#doctor_result").empty().html(html)
+    }
+    });
+
+
+
+
+
 });
 jQuery(document).live("click", function(e) { 
     var $clicked = $(e.target);

@@ -18354,6 +18354,26 @@ p.demo_store {
     text-align: center;
   }
 }
+
+
+.inputbookappointment{
+  font-size: 10px;
+  float: right;
+  margin-right: 10px;
+}
+.inputbookappointment:hover, .btn:focus{
+  color:#fff;
+}
+
+.timming{
+  float :left;
+  padding:10px;
+  background-color:green;
+  border:1px solid #000;
+  color:#fff;
+  margin-right:10px;
+  margin-bottom: 10px;
+}
 /*
 	Theme Name: MedicalPress
 	Theme URI: http://themeforest.net/item/medicalpress-health-and-medical-wordpress-theme/7789703

@@ -22,5 +22,5 @@
 </style>
 
 <link rel="stylesheet" type="text/css" href="../wp-content/rb.homepage.desktop__254091cb7447804869214d9712419924__.min.css"       media="all" />
-<link rel="stylesheet" type="text/css" href="../wp-content/filter_doctor.css"       media="all" />
+<link rel="stylesheet" type="text/css" href="wp-content/filter_doctor.css"       media="all" />
 <link rel="stylesheet" type="text/css" href="../wp-content/sg.patient-beta.framework__f5cf27c75a82a6020a62ba4a45789209__.min.css"       media="all" />
