@@ -2,10 +2,6 @@
 <form>
     <div class="content">
 <input type="text" class="search" id="searchid" placeholder="Search for people" />
-<input type="text" class="search" id="searchbyLocation" placeholder="Location Search" />
-<button id="searchbtn">
-<i class="fa fa-search" aria-hidden="true"></i>
-</button>
 <br /> 
 <div id="result"></div>
 </div>
@@ -23,10 +19,11 @@ margin:0 auto;
 }
 #searchid
 {
-width:300px;
+width:900px;
 border:solid 1px #000;
 padding:10px;
 font-size:14px;
+
 }
 #searchbyLocation
 {
@@ -62,8 +59,27 @@ cursor:pointer;
 }
 </style>
 <script type="text/javascript">
-$(function(){
-    
+$(function(){    
+$(".search").keyup(function() { 
+var searchid = $(this).val();
+var dataString = 'search='+ searchid;
+if(searchid != "" ){
+    $.ajax({
+    type: "POST",
+    url: "../medical/common/result.php",
+    data: dataString,
+    cache: false,
+    success: function(html){
+     $("#result").html(html).show();
+    }
+    });
+}else{
+
+}    $("#result").html("").hide();
+
+return false;    
+});
+
 $(".search").keyup(function() { 
 var searchid = $(this).val();
 var dataString = 'search='+ searchid;
@@ -85,6 +101,7 @@ return false;
 });
 
 
+
 jQuery("#result").on("click",function(e){ 
     debugger;
 
@@ -94,8 +111,12 @@ jQuery("#result").on("click",function(e){
     var decoded = $("<div/>").html($name.trim()).text();
     $('#searchid').val(decoded);
     var $catid = $clicked.find('.catid').html();
-
-    var docString = 'sinfo='+ decoded + "&catid="+ $catid;
+    var $id = $clicked.find('.id').html();
+    var $name = $clicked.find('.name').html();
+    var $cat = $clicked.find('.cat').html();
+    var $age = $clicked.find('.age').html();
+    var $gender = $clicked.find('.gender').html();
+    var docString = 'sinfo='+ decoded + "&catid="+ $catid + "&id="+ $id + "&name="+ $name + "&cat="+ $cat + "&age="+ $age + "&gender="+ $gender;
 
 
     $.ajax({
@@ -124,6 +145,8 @@ $('#searchid').click(function(){
 });
 
 });
+
+
  
 </script>
 <!-- 
